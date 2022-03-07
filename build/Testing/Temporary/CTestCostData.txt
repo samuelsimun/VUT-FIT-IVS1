@@ -1,0 +1,10 @@
+NonEmptyQueue.Insert 1 0.00540882
+NonEmptyQueue.RemoveAllBackward 1 0.00292946
+NonEmptyQueue.RemoveAllForward 1 0.00181492
+NonEmptyQueue.Find 1 0.00263401
+NonEmptyQueue.Length 1 0.00311784
+EmptyQueue.Insert 1 0.00257872
+EmptyQueue.Remove 1 0.001726
+EmptyQueue.Find 1 0.00167858
+EmptyQueue.Length 1 0.00163202
+---

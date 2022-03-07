@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest-complete.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule
