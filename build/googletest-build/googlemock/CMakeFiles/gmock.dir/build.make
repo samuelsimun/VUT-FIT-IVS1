@@ -60,15 +60,15 @@ include googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: googletest-master/googlemock/src/gmock-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc"
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc"
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc" > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc" > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
 googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc" -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googlemock" && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googlemock/src/gmock-all.cc" -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \

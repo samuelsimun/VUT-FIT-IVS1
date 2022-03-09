@@ -60,28 +60,28 @@ include CMakeFiles/tdd_test.dir/flags.make
 CMakeFiles/tdd_test.dir/tdd_code.cpp.o: CMakeFiles/tdd_test.dir/flags.make
 CMakeFiles/tdd_test.dir/tdd_code.cpp.o: ../tdd_code.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tdd_test.dir/tdd_code.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_test.dir/tdd_code.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_test.dir/tdd_code.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp"
 
 CMakeFiles/tdd_test.dir/tdd_code.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tdd_test.dir/tdd_code.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp" > CMakeFiles/tdd_test.dir/tdd_code.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp" > CMakeFiles/tdd_test.dir/tdd_code.cpp.i
 
 CMakeFiles/tdd_test.dir/tdd_code.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_test.dir/tdd_code.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp" -o CMakeFiles/tdd_test.dir/tdd_code.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_code.cpp" -o CMakeFiles/tdd_test.dir/tdd_code.cpp.s
 
 CMakeFiles/tdd_test.dir/tdd_tests.cpp.o: CMakeFiles/tdd_test.dir/flags.make
 CMakeFiles/tdd_test.dir/tdd_tests.cpp.o: ../tdd_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tdd_test.dir/tdd_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_test.dir/tdd_tests.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tdd_test.dir/tdd_tests.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp"
 
 CMakeFiles/tdd_test.dir/tdd_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tdd_test.dir/tdd_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp" > CMakeFiles/tdd_test.dir/tdd_tests.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp" > CMakeFiles/tdd_test.dir/tdd_tests.cpp.i
 
 CMakeFiles/tdd_test.dir/tdd_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tdd_test.dir/tdd_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp" -o CMakeFiles/tdd_test.dir/tdd_tests.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/tdd_tests.cpp" -o CMakeFiles/tdd_test.dir/tdd_tests.cpp.s
 
 # Object files for target tdd_test
 tdd_test_OBJECTS = \

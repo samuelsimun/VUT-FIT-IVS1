@@ -60,15 +60,15 @@ include CMakeFiles/black_box_test.dir/flags.make
 CMakeFiles/black_box_test.dir/black_box_tests.cpp.o: CMakeFiles/black_box_test.dir/flags.make
 CMakeFiles/black_box_test.dir/black_box_tests.cpp.o: ../black_box_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/black_box_test.dir/black_box_tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/black_box_test.dir/black_box_tests.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/black_box_test.dir/black_box_tests.cpp.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp"
 
 CMakeFiles/black_box_test.dir/black_box_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/black_box_test.dir/black_box_tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp" > CMakeFiles/black_box_test.dir/black_box_tests.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp" > CMakeFiles/black_box_test.dir/black_box_tests.cpp.i
 
 CMakeFiles/black_box_test.dir/black_box_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/black_box_test.dir/black_box_tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp" -o CMakeFiles/black_box_test.dir/black_box_tests.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp" -o CMakeFiles/black_box_test.dir/black_box_tests.cpp.s
 
 # Object files for target black_box_test
 black_box_test_OBJECTS = \

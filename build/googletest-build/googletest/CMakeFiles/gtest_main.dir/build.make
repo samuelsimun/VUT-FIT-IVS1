@@ -60,15 +60,15 @@ include googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make
 googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make
 googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: googletest-master/googletest/src/gtest_main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc"
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc"
 
 googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc" > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc" > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc" -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest" && /bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-master/googletest/src/gtest_main.cc" -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
