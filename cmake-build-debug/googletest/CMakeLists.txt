@@ -16,8 +16,8 @@ include(ExternalProject)
 ExternalProject_Add(googletest
     GIT_REPOSITORY    https://github.com/google/googletest.git
     GIT_TAG           main
-    SOURCE_DIR        "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/cmake-build-debug/googletest-master"
-    BINARY_DIR        "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/cmake-build-debug/googletest-build"
+    SOURCE_DIR        "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/cmake-build-debug/googletest-master"
+    BINARY_DIR        "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/cmake-build-debug/googletest-build"
     CONFIGURE_COMMAND ""
     BUILD_COMMAND     ""
     INSTALL_COMMAND   ""

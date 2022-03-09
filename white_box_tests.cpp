@@ -8,7 +8,7 @@
 //============================================================================//
 /**
  * @file white_box_tests.cpp
- * @author JMENO PRIJMENI
+ * @author SAMUEL ŠIMÚN
  * 
  * @brief Implementace testu prace s maticemi.
  */

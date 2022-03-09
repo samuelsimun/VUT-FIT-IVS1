@@ -1,24 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/black_box_tests.cpp" "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/black_box_test.dir/black_box_tests.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../libs"
-  "googletest-master/googletest/include"
-  "googletest-master/googletest"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/black_box_tests.cpp" "CMakeFiles/black_box_test.dir/black_box_tests.cpp.o" "gcc" "CMakeFiles/black_box_test.dir/black_box_tests.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

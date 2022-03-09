@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/CMakeFiles/googletest"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/CMakeFiles/googletest.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/CMakeFiles/googletest-complete.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/CMakeFiles/googletest-complete.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule"
 		},
 		{
-			"file" : "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+			"file" : "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule"
 		}
 	],
 	"target" : 

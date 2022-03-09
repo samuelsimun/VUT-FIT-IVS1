@@ -1,4 +1,4 @@
-# Install script for directory: /home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest
+# Install script for directory: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/googletest/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/googletest/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

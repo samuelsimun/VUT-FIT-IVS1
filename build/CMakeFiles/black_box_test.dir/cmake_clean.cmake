@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/black_box_test.dir/black_box_tests.cpp.o"
+  "CMakeFiles/black_box_test.dir/black_box_tests.cpp.o.d"
   "black_box_test"
   "black_box_test.pdb"
 )

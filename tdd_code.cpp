@@ -3,12 +3,12 @@
 // Purpose:     Test Driven Development - priority queue code
 //
 // $NoKeywords: $ivs_project_1 $tdd_code.cpp
-// $Author:     JMENO PRIJMENI <xlogin00@stud.fit.vutbr.cz>
-// $Date:       $2021-01-04
+// $Author:     SAMUEL ŠIMÚN <xsimun04@stud.fit.vutbr.cz>
+// $Date:       $2022-03-09
 //============================================================================//
 /**
  * @file tdd_code.cpp
- * @author JMENO PRIJMENI
+ * @author SAMUEL ŠIMUN
  * 
  * @brief Implementace metod tridy prioritni fronty.
  */

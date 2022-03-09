@@ -1,27 +1,28 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_78067/fast && /usr/bin/make -f CMakeFiles/cmTC_78067.dir/build.make CMakeFiles/cmTC_78067.dir/build
-make[1]: Entering directory '/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_78067.dir/src.c.o
-/bin/x86_64-linux-gnu-gcc-9   -g -O0 -fprofile-arcs -ftest-coverage -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_78067.dir/src.c.o   -c "/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_78067
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78067.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -g -O0 -fprofile-arcs -ftest-coverage -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_78067.dir/src.c.o  -o cmTC_78067 
-/usr/bin/ld: CMakeFiles/cmTC_78067.dir/src.c.o: in function `main':
-/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp/src.c:11: undefined reference to `pthread_create'
-/usr/bin/ld: /home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp/src.c:12: undefined reference to `pthread_detach'
-/usr/bin/ld: /home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp/src.c:13: undefined reference to `pthread_join'
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fd8ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd8ea.dir/build.make CMakeFiles/cmTC_fd8ea.dir/build
+make[1]: Entering directory '/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd8ea.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -g -O0 -fprofile-arcs -ftest-coverage  -o CMakeFiles/cmTC_fd8ea.dir/src.c.o -c "/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_fd8ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd8ea.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O0 -fprofile-arcs -ftest-coverage  CMakeFiles/cmTC_fd8ea.dir/src.c.o -o cmTC_fd8ea 
+/usr/bin/ld: CMakeFiles/cmTC_fd8ea.dir/src.c.o: in function `main':
+/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp/src.c:11: undefined reference to `pthread_create'
+/usr/bin/ld: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp/src.c:12: undefined reference to `pthread_detach'
+/usr/bin/ld: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp/src.c:13: undefined reference to `pthread_cancel'
+/usr/bin/ld: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp/src.c:14: undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_78067.dir/build.make:87: cmTC_78067] Error 1
-make[1]: Leaving directory '/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_78067/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_fd8ea.dir/build.make:99: cmTC_fd8ea] Error 1
+make[1]: Leaving directory '/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fd8ea/fast] Error 2
 
 
 Source file was:
 #include <pthread.h>
 
-void* test_func(void* data)
+static void* test_func(void* data)
 {
   return data;
 }
@@ -31,6 +32,7 @@ int main(void)
   pthread_t thread;
   pthread_create(&thread, NULL, test_func, NULL);
   pthread_detach(thread);
+  pthread_cancel(thread);
   pthread_join(thread, NULL);
   pthread_atfork(NULL, NULL, NULL);
   pthread_exit(NULL);
@@ -39,20 +41,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp
+Change Dir: /home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bbc9e/fast && /usr/bin/make -f CMakeFiles/cmTC_bbc9e.dir/build.make CMakeFiles/cmTC_bbc9e.dir/build
-make[1]: Entering directory '/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bbc9e.dir/CheckFunctionExists.c.o
-/bin/x86_64-linux-gnu-gcc-9   -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bbc9e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bbc9e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbc9e.dir/link.txt --verbose=1
-/bin/x86_64-linux-gnu-gcc-9  -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bbc9e.dir/CheckFunctionExists.c.o  -o cmTC_bbc9e  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e72cb/fast && /usr/bin/make  -f CMakeFiles/cmTC_e72cb.dir/build.make CMakeFiles/cmTC_e72cb.dir/build
+make[1]: Entering directory '/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e72cb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e72cb.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e72cb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e72cb.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_e72cb.dir/CheckFunctionExists.c.o -o cmTC_e72cb  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_bbc9e.dir/build.make:87: cmTC_bbc9e] Error 1
-make[1]: Leaving directory '/home/samuel/Desktop/IVS 1/ivs_project_1_2022 (1)/assignment/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_bbc9e/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e72cb.dir/build.make:99: cmTC_e72cb] Error 1
+make[1]: Leaving directory '/home/samuel/Desktop/IVS - odovzdanie/ivs_project_1_2022/assignment/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_e72cb/fast] Error 2
 
 
 
