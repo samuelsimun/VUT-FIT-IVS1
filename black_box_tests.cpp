@@ -117,16 +117,24 @@ TEST_F(EmptyTree, InsertNode){
 }
 
 TEST_F(EmptyTree, DeleteNode){
+    
+    // Testing for random values 
+    // Expecting --> False
     for (int i=0; i<30;i++){
         EXPECT_FALSE(tree.DeleteNode(rand()));
     }
 
+
+    // Testing for values insertid previous 
     EXPECT_FALSE(tree.DeleteNode(10));
     EXPECT_FALSE(tree.DeleteNode(2));
 
+
+    // Inserting values to delete
     auto first_node = tree.InsertNode(10);
     auto second_node = tree.InsertNode(2);
 
+    // Deleting inserted values and controlling root
     EXPECT_TRUE(tree.DeleteNode(10));
     EXPECT_EQ(tree.GetRoot(), second_node.second);
 
@@ -135,16 +143,23 @@ TEST_F(EmptyTree, DeleteNode){
 }
 
 TEST_F(EmptyTree, FindNode){
-   for (int i=0; i<10; i++){
+
+    // Testing for random values
+    // Expecting --> NULL
+     for (int i=0; i<10; i++){
         EXPECT_TRUE(tree.FindNode(rand()) == NULL);
     }
  
+    // Testing for values insertid previous 
+    // Expecting --> NULL
     EXPECT_TRUE(tree.FindNode(10) == NULL);
     EXPECT_TRUE(tree.FindNode(2) == NULL);
 
+    // Inserting values to find 
     auto first_node = tree.InsertNode(10);
     auto second_node = tree.InsertNode(2); 
 
+    // Looking for values which were inserted previous
     EXPECT_TRUE(tree.FindNode(10) != NULL);
     EXPECT_TRUE(tree.FindNode(2) != NULL);  
 }
@@ -193,39 +208,51 @@ TEST_F(NonEmptyTree, InsertNode){
 }
 
 TEST_F(NonEmptyTree, DeleteNode){
+    // Testing for values that are NOT in tree
     int values_to_delete[] = {84, 63, 78 , 64 , 13 , 99 , 183 , 168 , 101, 244};
     for (int i=0; i<10; i++){
         EXPECT_FALSE(tree.DeleteNode(values_to_delete[i]));
     }
 
+    // Testing for values that ARE in tree
     EXPECT_TRUE(tree.DeleteNode(2));
     EXPECT_TRUE(tree.DeleteNode(17));
     EXPECT_TRUE(tree.DeleteNode(10));
+
+    // Controll root after deleting the previous root
     EXPECT_EQ(tree.GetRoot()->key, 8);
 }
 
 TEST_F(NonEmptyTree, FindNode){
+    // Testing for values that are NOT in tree
     for (int i=0; i<10; i++){
         EXPECT_TRUE(tree.FindNode(rand()+300) == NULL);
     }
-
     EXPECT_TRUE(tree.FindNode(0) == NULL);
+
+    // Teseting for values that ARE in tree
     EXPECT_TRUE(tree.FindNode(10) == tree.GetRoot());
     EXPECT_TRUE(tree.FindNode(7)->pParent == tree.GetRoot());
     EXPECT_TRUE(tree.FindNode(158)->pLeft->pLeft == nullptr && tree.FindNode(158)->pRight->pRight == nullptr);
 }
 
 TEST_F(TreeAxioms, Axiom1){
+    // Creating vector for LeafNodes and inserting them
     std::vector<Node_t *> outLeafNodes {};
     tree.GetLeafNodes(outLeafNodes);
+
+    // Controlling if each node in vector has BLACK colour 
     for (auto node : outLeafNodes){
         EXPECT_TRUE(node->color == BinaryTree::BLACK);
     }
 }
 
 TEST_F(TreeAxioms, Axiom2){
+    // Creating vector for NON-LeafNodes and inserting them
     std::vector<Node_t *> outNonLeafNodes {};
     tree.GetNonLeafNodes(outNonLeafNodes);
+
+    // If node color is red --> pLeft and pRight have to be BLACK
     for (auto node : outNonLeafNodes){
         if (node->color == BinaryTree::RED){
             EXPECT_TRUE(node->pLeft->color == BinaryTree::BLACK);
@@ -237,9 +264,12 @@ TEST_F(TreeAxioms, Axiom2){
 }
 
 TEST_F(TreeAxioms, Axiom3){
+    // Creating vector for LeafNodes and inserting them
     std::vector<Node_t *> outLeafNodes {};
     tree.GetLeafNodes(outLeafNodes);
 
+
+    // Setting default value for trace from leaf to root
     auto node = outLeafNodes[0];
     int number_of_black_nodes = 0;
     while (node != tree.GetRoot()){
@@ -248,7 +278,7 @@ TEST_F(TreeAxioms, Axiom3){
                 number_of_black_nodes++;
         }
 
-
+    // Controlling if every leaf has same ammount of black nodes to root
     for (auto node : outLeafNodes){
         int counter = 0;
         while (node != tree.GetRoot()){
